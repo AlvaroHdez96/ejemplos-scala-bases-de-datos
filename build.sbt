@@ -8,3 +8,4 @@ lazy val root = (project in file("."))
   )
 
 libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.29"
+libraryDependencies += "org.mongodb.scala" %%  "mongo-scala-driver" % "4.6.0"
